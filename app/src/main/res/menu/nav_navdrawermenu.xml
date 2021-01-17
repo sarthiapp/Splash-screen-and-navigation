@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_rides"
+                android:icon="@drawable/rides"
+                android:title="Your rides"/>
+            <item
+                android:id="@+id/nav_payments"
+                android:icon="@drawable/ic_payments"
+                android:title="Payments"/>
+            <item
+                android:id="@+id/nav_gift"
+                android:icon="@drawable/gift"
+                android:title="Refer and Earn"/>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About"/>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_signout"
+                android:title="Sign out"/>
+
+
+        </group>
+
+
+    </menu>
